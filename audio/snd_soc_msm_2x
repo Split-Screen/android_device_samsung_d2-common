@@ -3833,11 +3833,18 @@ EndSection
 
 SectionDevice
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     Name "Voice Recognition Headset"
     Comment "VR Headset Mic Tx device"
 
     EnableSequence
+=======
+	Name "Voice Recognition Headset"
+	Comment "VR Headset Mic Tx device"
+
+	EnableSequence
+>>>>>>> 5770c0a... d2: Add VR headset use case
         'PRI_TX Channels':0:One
         'SLIM TX7 MUX':0:DEC4
         'DEC4 MUX':0:ADC3
@@ -3852,13 +3859,22 @@ SectionDevice
         'ADC3 Volume':1:0
         'MICBIAS1 CAPLESS Switch':1:0
     EndSequence
+<<<<<<< HEAD
 
     ACDBID  8:2
+=======
+	EndSequence
+
+	ACDBID  8:2
+>>>>>>> 5770c0a... d2: Add VR headset use case
 
 EndSection
 
 SectionDevice
+<<<<<<< HEAD
 >>>>>>> 7fbe8c2... d2-common: fix merge derp
+=======
+>>>>>>> 5770c0a... d2: Add VR headset use case
 	Name "TTY Handset Tx"
 	Comment "TTY VCO Handset Tx device"
 
