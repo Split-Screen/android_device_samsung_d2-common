@@ -87,3 +87,17 @@ WIFI_DRIVER_FW_PATH_AP      := "/system/etc/wifi/bcmdhd_apsta.bin"
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/d2-common
 
+#TWRP
+TARGET_NO_SEPARATE_RECOVERY := true
+BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
+TARGET_NO_RECOVERY_PATCH := true
+TW_INCLUDE_NTFS_3G := false
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_NO_USB_STORAGE := true
+TW_INCLUDE_JB_CRYPTO := false
+TW_NO_SCREEN_BLANK := true
+TW_EXCLUDE_ENCRYPTED_BACKUPS := true
+TW_INCLUDE_L_CRYPTO := true
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_THEME := portrait_hdpi
